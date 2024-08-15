@@ -18,10 +18,10 @@ module.exports = {
       idade: {
         type: Sequelize.INTEGER
       },
-      contrato_fim: {
-        type: Sequelize.DATE
-      },
       nacionalidade: {
+        type: Sequelize.STRING
+      },
+      imagem: {
         type: Sequelize.STRING
       },
       createdAt: {
